@@ -247,6 +247,7 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding-left: 42px;
+  font-size: 14px;
 }
 
 .label-input:focus {
@@ -276,6 +277,7 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   resize: none;
+  font-size: 14px;
 }
 
 .feedback-input:focus {
@@ -802,7 +804,7 @@ img {
 }
 
 .subscribe-input {
-  width: 358px;
+  flex-grow: 1;
   height: 50px;
   color: var(--white-color);
   background-color: transparent;

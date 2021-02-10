@@ -94,7 +94,7 @@
   justify-content: center;
 }
 .subscribe-input {
-  width: 358px;
+  flex-grow: 1;
   height: 50px;
   color: var(--white-color);
   background-color: transparent;
