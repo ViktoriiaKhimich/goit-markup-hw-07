@@ -19,7 +19,7 @@
   }
 }
 
-.social-link-item {
+.social-link-item:not(:last-child) {
   margin-right: 10px;
 }
 

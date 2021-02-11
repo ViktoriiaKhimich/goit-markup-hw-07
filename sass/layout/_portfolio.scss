@@ -1,3 +1,13 @@
+.filters-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 56px;
+
+  & .item + .item {
+    margin-left: 8px;
+  }
+}
+
 .projects-list {
   display: flex;
   flex-wrap: wrap;
